@@ -1,38 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #a2bbcf;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CalcContainer {
+  width: 600px;
+  box-shadow: 0px 0px 5px rgba(37, 37, 37, 0.788);
+  margin: auto;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DispContainer {
+  border: 5px solid #a2bbcf;
+  padding: 10px;
+  background-color: #142f44;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Display {
+  text-align: end;
+  font-size: 2rem;
+}
+
+.ButtonContainer {
+  height: 300px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  border: 5px solid #a2bbcf;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ButtonKeys {
+  flex: 25%;
+  font-size: 2em;
+  background-color: #142f44;
+  border: 1px solid  #142f44;
 }
