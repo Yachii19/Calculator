@@ -15,7 +15,7 @@ function NameAndSection(){
   return(
     <div className='NameContainer'>
       <p>
-        John Rein Vinuya
+        Calculator of John Rein Vinuya
       </p>
       <p>
         BSIT - 3A

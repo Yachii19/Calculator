@@ -26,11 +26,11 @@ body {
 .NameContainer {
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 10px 0px 10px 0px;
 }
 
 .NameContainer > p {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
 }
